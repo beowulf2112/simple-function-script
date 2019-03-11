@@ -18,3 +18,21 @@ function greet(firstName, lastName) {
 }
 var b = greet ();
 console.log("Hello, " + b + "!");
+
+// create a function that accepts 2 parameters
+// a first name, and a last name
+// and prints the first name and last name together in the console
+// saying "Hello, Fname Lname!"
+// hint: string concatenation
+
+// with template literals
+function helloFnameLname(a, b){
+  console.log(`Hello, ${a} ${b}!`);
+};
+helloFnameLname('Kelly', 'Rippa');
+
+// with standard quotes
+function helloFLname(a, b){
+  console.log('Hello, ' + a + ' ' + b + '!');
+};
+helloFLname('Johnny', 'McJohnny');
